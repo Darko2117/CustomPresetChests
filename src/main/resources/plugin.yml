@@ -1,0 +1,9 @@
+version: 6.9 hehe
+name: CustomPresetChests
+description: A plugin for an event, automatic random chest filling
+author: Daki
+main: com.daki.main.CustomPresetChests
+api-version: 1.16
+commands:
+  cpc:
+    permission: cpc.admin
