@@ -1,5 +1,6 @@
 package com.daki.main;
 
+import com.daki.main.managers.StartupManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class CustomPresetChests extends JavaPlugin {
@@ -16,7 +17,7 @@ public class CustomPresetChests extends JavaPlugin {
         instance = this;
         CustomPresetChests.getInstance().getLogger().info("--------------------------------------------------");
 
-        Startup.initialize();
+        StartupManager.initialize();
 
         CustomPresetChests.getInstance().getLogger().info("CustomPresetChests started!");
         CustomPresetChests.getInstance().getLogger().info("--------------------------------------------------");
